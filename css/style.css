@@ -403,6 +403,12 @@ Animation keyframes
     }
 }
 
+@media (max-width: 800px) {
+
+    .construction {
+        display: none;
+    }
+}
 
 /* gallery css */
 
@@ -424,5 +430,5 @@ img {
     font-weight: 200;
     font-style: italic;
     left: 200px;
-    top: 400px;
+    position: relative;
 }
