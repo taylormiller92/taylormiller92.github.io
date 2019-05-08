@@ -1,7 +1,3 @@
-body {
-    background-color: #fff
-}
-
 .home {
     width: 100%;
     height: 100vh;
@@ -15,21 +11,23 @@ body {
 .web {
     width: 100%;
     height: 100vh;
-    top: -10px;
+    top: -20px;
     position: relative;
-    background-color: #badae2;
+    background-color: #66cccc;
+    padding: 120px;
 }
 
 .illustration {
     width: 100%;
-    top: -10px;
+    top: -30px;
     position: relative;
     background-color: #F4837D;
+    padding: 120px;
 }
 
 .contact {
     width: 100%;
-    top: -10px;
+    top: -20px;
     position: relative;
     background-color: #eee;
 }
@@ -38,11 +36,47 @@ body {
 .photos {
     width: 100%;
     height: 100vh;
-    top: -10px;
+    top: -40px;
     position: relative;
     background-image: url(../images/kids.jpg);
     background-size: cover;
     background-position: center center;
+}
+
+.home h1 a, .web h1 a, .illustration h1 a, .photos h1 a, .contact h1 a {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    z-index: 10;
+    top:50px;
+    left:50px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #fff;
+}
+
+.web a, .illustration a, .illustration p, .photos a, .contact a {
+    font-family: roboto-mono, monospace;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+
+}
+
+.figure a {
+    font-size: 16px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
+}
+
+.footer {
+    text-align: center;
 }
 
 /* ====================================
@@ -380,30 +414,9 @@ Animation keyframes
         background-color: #fff;
     }
 }
-.home a, .web h1 a, .illustration a, .photos a, .contact a {
-    font-family: acumin-pro, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    position: absolute;
-    z-index: 10;
-    top:50px;
-    left:50px;
-    padding-bottom: 3px;
-    border-bottom: 1px solid #fff;
-}
 
-.figure a {
-    font-size: 16px;
-    font-family: acumin-pro, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: black;
+/*media queries*/
 
-}
 @media (max-width: 640px) {
     nav ul li a {
         font-size: 11px;
@@ -426,18 +439,6 @@ Animation keyframes
     }
 }
 
-/* gallery css */
-
-.row > div {
-    padding: 0 4px !important;
-}
-
-img {
-    margin-top: 8px;
-    vertical-align: middle;
-
-}
-
 /* everything else */
 
 .construction {
@@ -455,4 +456,14 @@ img {
     font-weight: 800;
     font-style: italic;
     font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    z-index: 10;
+    top:50px;
+    left:50px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #fff;
+
 }
