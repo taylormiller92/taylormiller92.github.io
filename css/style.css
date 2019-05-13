@@ -45,6 +45,7 @@
     position: relative;
     background-color: #ffcc66;
     padding: 120px;
+    margin-top: -20px;
 }
 
 .home h1 a, .web h1 a, .illustration h1 a, .photos h1 a, .about h1 a {
